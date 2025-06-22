@@ -77,6 +77,8 @@ flowchart TD
     C --> F[Bayesian Regression (PyMC3)]
     E --> G[Tableau Dashboards]
     F --> G
+```
+---
 
 ## 🔍 Key Insights
 
