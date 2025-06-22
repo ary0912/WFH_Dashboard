@@ -34,32 +34,32 @@ Key deliverables:
 
 ### 🗺️ Geographic Distribution of WFH
 <p align="center">
-  <img src="dashboards/screenshots/geo.png" alt="WFH Geographic Map" width="700"/>
+  <img src="geo.png" alt="WFH Geographic Map" width="700"/>
 </p>
 
 ### 🔼 Top vs Bottom Performing Regions
 <p align="center">
-  <img src="dashboards/screenshots/topnbottom.png" alt="Top and Bottom WFH Areas" width="700"/>
+  <img src="topnbottom.png" alt="Top and Bottom WFH Areas" width="700"/>
 </p>
 
 ### 📈 WFH Trend 2011–2021–2030
 <p align="center">
-  <img src="dashboards/screenshots/wfh.png" alt="WFH Time Series" width="700"/>
+  <img src="wfh.png" alt="WFH Time Series" width="700"/>
 </p>
 
 ### 🏘️ Housing Type vs WFH Growth
 <p align="center">
-  <img src="dashboards/screenshots/housing.png" alt="Housing vs WFH" width="700"/>
+  <img src="housing.png" alt="Housing vs WFH" width="700"/>
 </p>
 
 ### 🚇 Transport Access and WFH Rate
 <p align="center">
-  <img src="dashboards/screenshots/transport.png" alt="Transport vs WFH" width="700"/>
+  <img src="transport.png" alt="Transport vs WFH" width="700"/>
 </p>
 
 ### 🧬 PCA View of LSOAs
 <p align="center">
-  <img src="dashboards/screenshots/pca.png" alt="PCA of LSOAs" width="700"/>
+  <img src="pca.png" alt="PCA of LSOAs" width="700"/>
 </p>
 
 ---
