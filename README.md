@@ -1,4 +1,3 @@
-
 ![Typing Header](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58D68D&center=true&vCenter=true&width=900&lines=📊+Visual+Analytics+of+WFH+in+UK+(2011–2030)+🚀)
 
 <p align="center">
@@ -33,12 +32,35 @@ Key deliverables:
 
 ## 📸 Visual Dashboard Samples
 
-> Add image links if you have GIFs or PNGs under `dashboards/screenshots/`
+### 🗺️ Geographic Distribution of WFH
+<p align="center">
+  <img src="dashboards/screenshots/geo.png" alt="WFH Geographic Map" width="700"/>
+</p>
 
-- 🗺️ **WFH Regional Map View** – % Change in WFH (2011–2021)  
-- 📊 **WFH Time Series** – Visualize WFH growth + 2030 forecast  
-- 🧬 **Cluster Explorer** – PCA/t-SNE plots of LSOAs  
-- 🚲 **Transport & Housing vs WFH** – Scatterplots for correlation
+### 🔼 Top vs Bottom Performing Regions
+<p align="center">
+  <img src="dashboards/screenshots/topnbottom.png" alt="Top and Bottom WFH Areas" width="700"/>
+</p>
+
+### 📈 WFH Trend 2011–2021–2030
+<p align="center">
+  <img src="dashboards/screenshots/wfh.png" alt="WFH Time Series" width="700"/>
+</p>
+
+### 🏘️ Housing Type vs WFH Growth
+<p align="center">
+  <img src="dashboards/screenshots/housing.png" alt="Housing vs WFH" width="700"/>
+</p>
+
+### 🚇 Transport Access and WFH Rate
+<p align="center">
+  <img src="dashboards/screenshots/transport.png" alt="Transport vs WFH" width="700"/>
+</p>
+
+### 🧬 PCA View of LSOAs
+<p align="center">
+  <img src="dashboards/screenshots/pca.png" alt="PCA of LSOAs" width="700"/>
+</p>
 
 ---
 
