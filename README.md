@@ -1,4 +1,3 @@
-# 📊 Visual Analytics of WFH in UK (2011–2030) 🚀
 
 ![Typing Header](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58D68D&center=true&vCenter=true&width=900&lines=📊+Visual+Analytics+of+WFH+in+UK+(2011–2030)+🚀)
 
