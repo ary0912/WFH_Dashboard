@@ -1,7 +1,6 @@
-<!-- HEADER -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58D68D&center=true&vCenter=true&width=900&lines=📊+Visual+Analytics+of+WFH+in+UK+(2011–2030)+🚀" alt="Animated Header">
-</p>
+# 📊 Visual Analytics of WFH in UK (2011–2030) 🚀
+
+![Typing Header](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=58D68D&center=true&vCenter=true&width=900&lines=📊+Visual+Analytics+of+WFH+in+UK+(2011–2030)+🚀)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Data%20Science-blue?style=for-the-badge&logo=python&logoColor=white"/>
@@ -14,41 +13,33 @@
 
 ## 🌍 Overview
 
-This repository presents a **visual analytics project** on the socio-economic factors influencing **Work From Home (WFH)** trends across **England and Wales** using census data from **2011 and 2021**, with a forecast for **2030**.  
+This project analyzes how socio-economic and infrastructure variables influenced the rise of **remote working (WFH)** in England & Wales, using **Census data from 2011 and 2021**, and forecasts adoption through **2030** using machine learning.
 
-🔍 We combined **Python analytics**, **machine learning**, and **interactive Tableau dashboards** to visualize how **employment**, **gender**, **housing**, and **transportation** shaped the WFH revolution.
+Key deliverables:
+- Interactive Tableau dashboards for policymakers
+- Python-powered ML pipeline including PCA, t-SNE, Bayesian Linear Regression
+- 33,000+ LSOAs analyzed across gender, employment, housing, and transport metrics
 
 ---
 
 ## ✨ Highlights
 
-- 📈 **Bayesian Linear Regression** for forecasting 2030 WFH trends  
-- 🧬 **Dimensionality Reduction** via PCA and t-SNE to uncover patterns  
-- 🗺️ **Geospatial Visuals** using Tableau for over 33,000+ neighborhoods (LSOAs)  
-- 📊 **Interactive Dashboards** that reveal socio-economic disparities in WFH adoption  
-- 🧠 Built with policymakers, planners, and researchers in mind
+- 🔮 Predictive analytics using **Bayesian Linear Regression**  
+- 📉 **PCA & t-SNE** for socioeconomic pattern discovery  
+- 🗺️ Geographic mapping using Tableau choropleths  
+- 📈 Time series comparison: 2011 ➡️ 2021 ➡️ 2030  
+- ⚡ Dashboards powered by delta metrics (change features)  
 
 ---
 
-## 🧠 Project Goals
+## 📸 Visual Dashboard Samples
 
-| 🎯 Objective | ✅ Method |
-|-------------|-----------|
-| Compare WFH rates (2011 vs 2021) | Preprocessed census datasets by LSOA |
-| Cluster LSOAs by socio-economic traits | PCA & t-SNE for unsupervised learning |
-| Predict WFH rates in 2030 | Bayesian Linear Regression using PyMC3 |
-| Make insights explorable | Tableau dashboards with filters & KPIs |
+> Add image links if you have GIFs or PNGs under `dashboards/screenshots/`
 
----
-
-## 📸 Visual Dashboard Snapshots
-
-| 📌 Dashboard | 🖼️ Preview |
-|-------------|-----------|
-| **WFH Change by Region** | ![Geo WFH](dashboards/screenshots/geo_dashboard.png) |
-| **Time Forecast (2011–2030)** | ![Time Series](dashboards/screenshots/timeline_forecast.png) |
-| **PCA & t-SNE Cluster Views** | ![Cluster](dashboards/screenshots/cluster_tsne.png) |
-| **Gender & Transport Analysis** | ![Scatter](dashboards/screenshots/gender_transport.png) |
+- 🗺️ **WFH Regional Map View** – % Change in WFH (2011–2021)  
+- 📊 **WFH Time Series** – Visualize WFH growth + 2030 forecast  
+- 🧬 **Cluster Explorer** – PCA/t-SNE plots of LSOAs  
+- 🚲 **Transport & Housing vs WFH** – Scatterplots for correlation
 
 ---
 
@@ -58,8 +49,46 @@ This repository presents a **visual analytics project** on the socio-economic fa
 flowchart TD
     A[Census Data 2011/2021] --> B[Data Cleaning (pandas)]
     B --> C[Feature Engineering]
-    C --> D[Change Metrics (Δ)]
+    C --> D[Delta Metrics (2011–2021)]
     D --> E[PCA & t-SNE (scikit-learn)]
     C --> F[Bayesian Regression (PyMC3)]
     E --> G[Tableau Dashboards]
     F --> G
+```
+## 🔍 Key Insights
+
+📈 **Higher WFH growth** in regions with:
+
+- More flats and converted commercial housing  
+- High full-time employment & digital infrastructure  
+- Better access to cycling/public transport  
+
+🚧 **Lower WFH adoption** in areas with:
+
+- High student populations  
+- Poor metro/transport connectivity  
+
+📅 **2030 WFH Forecast**:
+
+- Ongoing growth expected  
+- Regional inequality persists unless infrastructure is addressed  
+
+---
+
+## 👥 Target Stakeholders
+
+- 🏛️ **Policy Makers** – Plan digital infrastructure investments  
+- 🏘️ **Urban Planners** – Design remote-friendly housing & cities  
+- 🧑‍💼 **HR Professionals** – Tailor hybrid work policies to region-specific needs  
+- 📚 **Academics/Researchers** – Study spatial digital inequality  
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone this repo
+
+```bash
+git clone https://github.com/yourusername/WFH-VisualAnalytics-UK-2011-2030.git
+cd WFH-VisualAnalytics-UK-2011-2030
+```
