@@ -66,6 +66,8 @@ Key deliverables:
 
 ## 🛠 Data Pipeline
 
+## 🛠 Data Pipeline
+
 ```mermaid
 flowchart TD
     A[Census Data 2011/2021] --> B[Data Cleaning (pandas)]
@@ -75,7 +77,7 @@ flowchart TD
     C --> F[Bayesian Regression (PyMC3)]
     E --> G[Tableau Dashboards]
     F --> G
-```
+
 ## 🔍 Key Insights
 
 📈 **Higher WFH growth** in regions with:
