@@ -66,13 +66,11 @@ Key deliverables:
 
 ## 🛠 Data Pipeline
 
-## 🛠 Data Pipeline
-
 ```mermaid
 flowchart TD
     A[Census Data 2011/2021] --> B[Data Cleaning (pandas)]
     B --> C[Feature Engineering]
-    C --> D[Delta Metrics (2011–2021)]
+    C --> D[Delta Metrics (2011-2021)]
     D --> E[PCA & t-SNE (scikit-learn)]
     C --> F[Bayesian Regression (PyMC3)]
     E --> G[Tableau Dashboards]
